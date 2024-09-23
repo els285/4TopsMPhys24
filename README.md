@@ -1,6 +1,9 @@
 # 4Tops MPhys 2024
 Repository for Manchester MPhys project "Top Quark to the 4"
 
+![image](https://github.com/user-attachments/assets/38b6a55f-7edb-43b2-bf27-47553ba637bf)
+
+
 # Summary
 We will be studying rare "multitop" processes, focusing primarily on "4tops": production of the four top quarks at the LHC. 
 We will also consider how to apply techniques we develop in the 4tops channel to "3tops".
