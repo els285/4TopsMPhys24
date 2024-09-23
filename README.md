@@ -5,6 +5,7 @@ Repository for Manchester MPhys project "Top Quark to the 4"
 We will be studying rare "multitop" processes, focusing primarily on "4tops": production of the four top quarks at the LHC. 
 We will also consider how to apply techniques we develop in the 4tops channel to "3tops".
 
+This is intended to be a collaborative project with input from yourselves!
 
 # Tasks
 I will update the major tasks in the Tasks section of this git.
@@ -21,3 +22,10 @@ I will include all datasets [here](https://drive.google.com/drive/folders/1p-p9q
 ## Extensions
 * Developing the kinematic reconstruction techniques
 * Studying these processes in an EFT context
+
+# Intended Student Outcomes
+* Exposure to high-energy physics research
+* Experience using Scikit-HEP tools for HEP data analysis.
+* Develop Python skills
+* Develop machine learning experience in Python
+* Whatever else you would like that fits within the scope of this project!
