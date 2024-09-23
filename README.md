@@ -1,7 +1,7 @@
 # 4Tops MPhys 2024
 Repository for Manchester MPhys project "Top Quark to the 4"
 
-![image](https://github.com/user-attachments/assets/38b6a55f-7edb-43b2-bf27-47553ba637bf)
+![image](https://github.com/user-attachments/assets/15e65446-6bee-492b-a3e7-250771e50a21)
 
 
 # Summary
