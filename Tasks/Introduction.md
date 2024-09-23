@@ -30,6 +30,8 @@ Additional useful modules:
 * `mplhep`: package built on `matplotlib` specifically for making HEP plots.
 
 ## Tasks A: Basic Analysis
+Put all saved histograms in a set of slides. I think it's a really good idea to keep track of your research as you go using Google Slides (or equivalent) where you can write out what you've done and include the plots. 
+
 #### Loading, Filtering and Plotting
 * Load the 4tops data
 * Apply a filter to select only events where `top_pt > 200`
