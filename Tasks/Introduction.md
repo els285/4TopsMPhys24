@@ -40,7 +40,7 @@ Put all saved histograms in a set of slides. I think it's a really good idea to 
 
 #### Using vector (look at the vector documentation)
 * Load the 4tops data
-* Apply the selections: top_pt > 50 and -2.4 < top_eta < 2.4 , and similarly for anti_top (remember this selection is applied per-event, so an event might meet one condition and not the other, but it has to meet both to pass the selection).
+* Apply the selections: top_pt > 50 and -2.4 < top_eta < 2.4 , and similarly for anti_top (remember this selection is applied per-event, so an event might meet some but not all conditions; it has to meet all to pass the selection).
 * Build a `vector` array of top quarks, and a similar array of antitop quarks.
 * Build the combined 4tops system by adding your vector arrays e.g. `top1 + top2 + antitop1 + antitop2`
 * Apply a selection to the 4tops system to retain only events where the invariant mass > 500
