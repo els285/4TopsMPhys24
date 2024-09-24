@@ -1,9 +1,10 @@
 # 4Tops MPhys 2024
 Repository for Manchester MPhys project "Top Quark to the 4"
 
+**Weekly Meetings Wednesdays at 10am**
+
 ![image](https://github.com/user-attachments/assets/15e65446-6bee-492b-a3e7-250771e50a21)
 
-**Weekly Meetings Wednesdays at 10am**
 
 # Summary
 We will be studying rare "multitop" processes, focusing primarily on "4tops": production of the four top quarks at the LHC. 
