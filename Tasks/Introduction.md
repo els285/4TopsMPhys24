@@ -46,9 +46,11 @@ Put all saved histograms in a set of slides. I think it's a really good idea to 
 * Apply a selection to the 4tops system to retain only events where the invariant mass > 500
 * Plot and save histograms of: 4tops invariant mass, deltaR between the two quarks which have the highest pt.
 
-## Tasks B: Comparign 3tops to 4tops
-Ethan to do sort out 3tops file first.
-
+## Tasks B: Comparing 3tops to 4tops
+The 3tops files are now also in the Google Drive. There are two, pertaining to the processes tttj and tttW, both of which count as "3tops".
+To do:
+* Load these files and apply the same selections as above, and then make some histograms comparing tttW to tttj.
+* Then, combine the tttW and tttj samples together (somehow) and then comparison histograms of 4tops to 3tops. For this, would be good to have some ratio plots.
 
 
 
