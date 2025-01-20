@@ -8,7 +8,7 @@ python run_DNN.py --train_file=train_file.h5 --test_file=tset_file.h5
 This involves writing the inputs to `h5` which is good practice for HyPER. See section below on h5. 
 * Plot the loss curves for training.
 
-  ## Running HyPER
+## Running HyPER
   We will focus on the 0L channel to start.
   1. Install HyPER: Use [Simon's tutorial on running HyPER on Chicago](https://github.com/els285/4TopsMPhys24/blob/main/Tasks/Semester2/HyPERonChicago.md) to get set up:
 
@@ -23,7 +23,7 @@ This involves writing the inputs to `h5` which is good practice for HyPER. See s
 
 
 
-
+# Technical
 ## Writing awkward arrays to h5
 ROOT files and awkward arrays are as you know "ragged" i.e. arrays are not all the same length, but vary depending on things like number of jets in an event.
 For making oru machine learning scripts more modular and using HyPER, we should write our outputs to `h5`, which is the preferred way to save non-ragged numpy arrays.
