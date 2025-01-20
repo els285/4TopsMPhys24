@@ -19,3 +19,19 @@ This involves writing the inputs to `h5` which is good practice for HyPER. See s
     **We should work on the `main` HyPER git branch** which is the one you are on by default when you git clone HyPER
   
   2. HyPER takes `.h5` files as inputs. Ethan will provide the input `h5` files.
+
+
+
+
+
+## Writing awkward arrays to h5
+ROOT files and awkward arrays are as you know "ragged" i.e. arrays are not all the same length, but vary depending on things like number of jets in an event.
+For making oru machine learning scripts more modular and using HyPER, we should write our outputs to `h5`, which is the preferred way to save non-ragged numpy arrays.
+This means we have to "pad" our awkward arrays, convert them to numpy and save them using `h5py`.
+
+Function for padding an awkward array (maybe can be written better):
+```python
+def pad_variable(variable, max_len, pad_to = 0):
+    padded_variable = ak.pad_none(variable, max_len, axis=1, clip=True)
+    return ak.fill_none(padded_variable, pad_to)
+```
