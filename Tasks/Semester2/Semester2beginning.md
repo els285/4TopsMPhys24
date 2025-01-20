@@ -15,7 +15,6 @@ This involves writing the inputs to `h5` which is good practice for HyPER. See s
      Conda is a package manager which allows us to install all the necessary PyTorch-associated tools for grpah neural networks. Simon's instructions describe how to:
       * Install `conda` (via miniforge)
       * Build the conda environment
-    
     **We should work on the `main` HyPER git branch** which is the one you are on by default when you git clone HyPER
   
   2. HyPER takes `.h5` files as inputs. Ethan will provide the input `h5` files.
