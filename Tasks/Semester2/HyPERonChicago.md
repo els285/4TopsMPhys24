@@ -55,11 +55,8 @@ conda activate HyPER
 
 After that, just go to your "_HyPER_" directory and you will be able to use HyPER!
 
-## Using HyPER
 
-Before you want to run HyPER for any task, check that you are satisfied with the parameters in the configuration file you want to use (located in the "_configs_" directory).
-
-### Training HyPER
+## Training HyPER
 
 To train a new HyPER model, use the following command with the config file of your choice:
 ```
@@ -68,10 +65,20 @@ python -m HyPER.train --config-name=myConfigName
 
 By default it will create a "_HyPER_logs_" directory which contains the outputs of the training. 
 
+### Config File
 
+The primary HyPER configuration file tells the `HyPER.train` command:
+* Where to find the dataset directory which contains our input data, as well as how to process this data;
+* The configurable elements of the training: optimiser, hyperparameters etc.
+* The prediction output information (for using with the `HyPER.predict step which is the step after this)
+
+Tips:
+* Make sure that the `savedir` field points to a new directory for different runs. If you train again you won't overwrite what was written before, but saving to different appropriately named directories makes it easier to keep track.
+
+### Visualisation with TensorBoard
 To visualise the results of the training in real time, it is recommended to use the **Tensorboard** extension on VS Code.  
 After installing the extension, launch it by typing "_>Python: Launch Tensorboard_" in the VS Code search bar.  
-After a few seconds, you will be offered 3 choices: click on "_Select another folder_", then find the directory containing the training outputs ("_HyPER_logs_" by default) and press "_Ok_".
+After a few seconds, you will be offered 3 choices: click on "_Select another folder_", then find the directory containing the training outputs ("_HyPER_logs_" by default) and press "_Ok_". If this isn't loading, try making sure that VSCode is using the correct python kernel (the `HyPER` conda environment).
 
 You now have access to the details of the training of all models stored in the directory. To investigate a specific model, check its corresponding box on the left.  
 On the middle of the window there are graphs, the most interesting ones are under "_fuzzy_accuracy_" and "_loss_", where you can see the evolution as a function of training steps of respectively the validation edge and hyperedge accuracy and both the training and validation loss functions.
