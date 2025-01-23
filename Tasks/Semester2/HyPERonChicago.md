@@ -83,14 +83,14 @@ After a few seconds, you will be offered 3 choices: click on "_Select another fo
 You now have access to the details of the training of all models stored in the directory. To investigate a specific model, check its corresponding box on the left.  
 On the middle of the window there are graphs, the most interesting ones are under "_fuzzy_accuracy_" and "_loss_", where you can see the evolution as a function of training steps of respectively the validation edge and hyperedge accuracy and both the training and validation loss functions.
 
-### Predicting with HyPER
+## Predicting with HyPER
 
 To reconstruct the events of a certain dataset with a certain HyPER model, use the following command with the config file of your choice:
 ```
 python -m HyPER.predict --config-name=myConfigName
 ```
 
-### Converting HyPER model to onnx format
+## Converting HyPER model to onnx format
 
 To convert a certain HyPER model to the onnx format, use the following command with the config file of your choice:
 ```
